@@ -74,7 +74,7 @@ body {
 
 .first-section {
   background-color: var(--dark-grey);
-  padding: 200px 0;
+  padding: 94px 0;
   margin: 0 auto;
 }
 
@@ -96,6 +96,7 @@ body {
   align-items: center;
   text-align: center;
   gap: 30px;
+  padding: 106px 0;
 }
 
 .button-studio {
@@ -168,7 +169,6 @@ body {
 .our-team {
   align-items: center;
   margin: 0 215px;
-  padding: 94px 0 0;
 }
 
 .john-box > figure {
@@ -198,7 +198,7 @@ body {
   background-color: var(--light);
   font-size: 16px;
   line-height: 1.186;
-  padding: 0 0 94px 0;
+  padding: 94px 0;
   margin: 0;
 }
 
