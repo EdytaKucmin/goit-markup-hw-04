@@ -77,6 +77,7 @@ body {
 .contact-icon {
   display: flex;
   align-items: center;
+  fill: var(--grey);
 }
 
 .contact-icon:hover,
@@ -156,6 +157,17 @@ body {
   margin: 0;
 }
 
+.lorem-icon {
+  height: 120px;
+  width: 270px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--light);
+  margin-bottom: 30px;
+}
+
 .section-what-we-do {
   padding-bottom: 94px;
 }
@@ -225,6 +237,18 @@ body {
   padding: 0 0 50px;
   text-align: center;
   margin: 0 auto;
+}
+
+.clients {
+  list-style: none;
+  display: flex;
+}
+
+.clients-box {
+  width: 170px;
+  height: 92px;
+  border-radius: 4px;
+  border: 1px solid;
 }
 
 /*main portfolio*/
