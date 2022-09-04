@@ -7,6 +7,7 @@ body {
   padding: 0;
   background-color: var(--body-bg);
 }
+
 :root {
   --dark-grey: #2f303a;
   --grey: #757575;
@@ -91,7 +92,7 @@ body {
   background-color: var(--dark-grey);
   padding: 94px 0;
   margin: 0 auto;
-  background-image: url(/images/background-header.jpg);
+  background-image: url(../images/background-header.jpg);
 }
 
 .first-section-text {
@@ -198,7 +199,7 @@ body {
   margin: 0 215px;
 }
 
-.john-box > figure {
+.john-box>figure {
   background-color: var(--white);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -314,7 +315,7 @@ body {
   padding: 20px 24px;
 }
 
-.description-category > p {
+.description-category>p {
   margin: 0;
 }
 
@@ -336,6 +337,7 @@ body {
   padding-bottom: 20px;
   width: 145px;
 }
+
 .footer-style {
   display: flex;
   flex-direction: column;
@@ -400,6 +402,7 @@ body {
   display: flex;
   gap: 70px;
 }
+
 /*all*/
 .wrapper {
   width: 1600px;
