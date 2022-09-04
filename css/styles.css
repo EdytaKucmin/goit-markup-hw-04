@@ -18,6 +18,7 @@ body {
   --light: #f5f4fa;
   --body-bg: #e5e5e5;
   --border: #eeeeee;
+  --icon-grey: #AFB1B8;
 }
 
 /*top*/
@@ -243,14 +244,16 @@ body {
 .clients {
   list-style: none;
   display: flex;
+  gap: 30px;
 }
 
 .clients-box {
   width: 170px;
   height: 92px;
   border-radius: 4px;
-  border: 1px solid;
+  border: 1px solid var(--icon-grey);
 }
+
 
 /*main portfolio*/
 
