@@ -48,12 +48,21 @@
 
                     <ul class="ul-style contact-list">
                         <li>
-                            <a class="links blue-links grey-contact"
-                                href="mailito:info@devstudio.com">info@devstudio.com</a>
+                            <a class="links grey-contact contact-icon" href="mailito:info@devstudio.com">
+                                <svg class="contact-icon-margin" width="16" height="12">
+                                    <use href="/images/icons.svg#icon-envelope"></use>
+                                </svg>
+                                info@devstudio.com
+                            </a>
                         </li>
 
                         <li>
-                            <a class="links blue-links grey-contact" href="tel:+48111111111">+48 111 111 111</a>
+                            <a class="links grey-contact contact-icon" href="tel:+48111111111">
+                                <svg class="contact-icon-margin" width="10" height="16">
+                                    <use href="/images/icons.svg#icon-telephone"></use>
+                                </svg>
+                                +48 111 111 111
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -205,23 +214,62 @@
                 </div>
             </section>
 
+            <section class="section">
+                <h2 class="text heading-section"> Nasi klienci</h2>
+            </section>
+
         </main>
 
         <footer class="background">
 
-            <div class="container footer-style">
+            <div class="container footer-flex">
+                <div class="footer-style">
+                    <a class="logo-footer" href="./index.html">
 
-                <a class="logo-footer" href="./index.html">
+                        <span class="color-logo">Web</span>Studio</a>
 
-                    <span class="color-logo">Web</span>Studio</a>
+                    <address class="w-text footer-address">
+                        m. Warszawa, Aleje Jerozolimskie 21
 
-                <address class="w-text footer-address">
-                    m. Warszawa, Aleje Jerozolimskie 21
+                        <a class="mail-color grey-contact" href="mailito:info@example.com">info@example.com</a>
 
-                    <a class="mail-color grey-contact" href="mailito:info@example.com">info@example.com</a>
+                        <a class="links grey-contact" href="tel:+48111111111">+48 111 111 111</a>
+                    </address>
+                </div>
 
-                    <a class="links grey-contact" href="tel:+48111111111">+48 111 111 111</a>
-                </address>
+
+                <div class="second-column">
+
+                    <p class="w-text join-us">DOŁĄCZ DO NAS</p>
+
+                    <ul class="media-flex">
+
+                        <li>
+                            <svg class="icon-social-media">
+                                <use href="/images/icons.svg#icon-instagram" width="20" height="20" x="12" y="12"></use>
+                            </svg>
+                        </li>
+
+                        <li>
+                            <svg class="icon-social-media">
+                                <use href="/images/icons.svg#icon-twitter" width="20" height="20" x="12" y="12"></use>
+                            </svg>
+                        </li>
+
+                        <li>
+                            <svg class="icon-social-media">
+                                <use href="/images/icons.svg#icon-facebook" width="20" height="20" x="12" y="12"></use>
+                            </svg>
+                        </li>
+
+                        <li>
+                            <svg class="icon-social-media">
+                                <use href="/images/icons.svg#icon-linkedin2" width="20" height="20" x="12" y="12">
+                                </use>
+                            </svg>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </footer>
     </div>

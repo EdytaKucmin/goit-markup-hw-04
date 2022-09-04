@@ -70,12 +70,27 @@ body {
   border-bottom: 1px solid var(--light);
 }
 
+.contact-icon-margin {
+  margin-right: 10px;
+}
+
+.contact-icon {
+  display: flex;
+  align-items: center;
+}
+
+.contact-icon:hover,
+.contact-icon:focus {
+  fill: var(--blue);
+}
+
 /*main index*/
 
 .first-section {
   background-color: var(--dark-grey);
   padding: 94px 0;
   margin: 0 auto;
+  background-image: url(/images/background-header.jpg);
 }
 
 .first-section-text {
@@ -279,6 +294,11 @@ body {
   margin: 0;
 }
 
+.project-box:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 /*footer*/
 
 .logo-footer {
@@ -314,6 +334,48 @@ body {
   color: var(--blue);
 }
 
+.second-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 72px 0 100px;
+}
+
+.join-us {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  margin: 0;
+}
+
+.media-flex {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  fill: var(--white);
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+.media-flex svg {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.icon-social-media:hover,
+.icon-social-media:focus {
+  background-color: var(--blue);
+  cursor: pointer;
+}
+
+.footer-flex {
+  display: flex;
+  gap: 70px;
+}
 /*all*/
 .wrapper {
   width: 1600px;
@@ -346,6 +408,7 @@ body {
 .links:hover,
 .links:focus {
   color: var(--blue);
+  fill: var(--blue);
 }
 
 .background {
