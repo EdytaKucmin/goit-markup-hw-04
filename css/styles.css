@@ -84,8 +84,7 @@ body {
   justify-content: center;
 }
 
-.icons-header:hover,
-.icons-header:focus {
+.icons-header:hover {
   fill: var(--blue);
 }
 
