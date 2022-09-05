@@ -77,13 +77,15 @@ body {
 
 }
 
-.contact-icon {
-  align-items: center;
+.icons-header {
   fill: var(--grey);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.contact-icon:hover,
-.contact-icon:focus {
+.icons-header:hover,
+.icons-header:focus {
   fill: var(--blue);
 }
 
