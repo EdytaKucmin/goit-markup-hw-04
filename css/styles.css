@@ -5,7 +5,7 @@ body {
   letter-spacing: 0.03em;
   margin: 0;
   padding: 0;
-  background-color: var(--body-bg);
+  
 }
 
 :root {
@@ -84,8 +84,9 @@ body {
   justify-content: center;
 }
 
-.icons-header:hover {
-  fill: var(--blue);
+
+.blue-icons:hover .icon{
+fill: var(--blue)
 }
 
 /*main index*/
