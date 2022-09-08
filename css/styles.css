@@ -84,8 +84,12 @@ body {
   justify-content: center;
 }
 
+.blue-icons:hover .icon {
+color: var(--blue);
+fill: var(--blue);
+}
 
-.blue-icons:hover .icon{
+.icons-header:hover .icon{
 fill: var(--blue)
 }
 
